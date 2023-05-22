@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body class="">
+        
+        <div class="container">
+            <header>
+                <h1>Giỏ Hàng Của Bạn</h1>
+                <div class="shopping">
+                    <img src="image/shopping.svg">
+                    <span class="quantity">0</span>
+                </div>
+            </header>
+    
+            <div class="list"> 
+              
+            <div class="item">
+                <img src="image/1.jpg">
+                <div class="title">Espresso</div>
+                <div class="price">120,000</div>
+                <button onclick="addToCard(0)">Mua Ngay</button></div><div class="item">
+                <img src="image/2.jpg">
+                <div class="title">Espresso</div>
+                <div class="price">120,000</div>
+                <button onclick="addToCard(1)">Mua Ngay</button></div><div class="item">
+                <img src="image/3.jpg">
+                <div class="title">Cafe Latte</div>
+                <div class="price">220,000</div>
+                <button onclick="addToCard(2)">Mua Ngay</button></div><div class="item">
+                <img src="image/4.jpg">
+                <div class="title">Cafe Truyền Thống</div>
+                <div class="price">123,000</div>
+                <button onclick="addToCard(3)">Mua Ngay</button></div><div class="item">
+                <img src="image/5.jpg">
+                <div class="title">Latte Macchiato
+                </div>
+                <div class="price">320,000</div>
+                <button onclick="addToCard(4)">Mua Ngay</button></div><div class="item">
+                <img src="image/6.jpg">
+                <div class="title">Cappuccino Viennese</div>
+                <div class="price">120,000</div>
+                <button onclick="addToCard(5)">Mua Ngay</button></div></div></div>
+        </div>
+        <div class="card">
+            <h1>Đơn Hàng</h1>
+            <ul class="listCard">
+            </ul>
+            <div class="checkOut">
+                <div class="total">0</div>
+                <div class="closeShopping">Close</div>
+            </div>
+        </div>
+    
+        <script src="app.js"></script>
+</body>
+</html>
